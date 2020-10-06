@@ -10,7 +10,7 @@ import com.loitp.R
 
 //TODO id admob
 //TODO debug const
-//TODO link link_cover string
+//done
 
 @LogTag("LApplication")
 class LApplication : BaseApplication() {
@@ -18,7 +18,7 @@ class LApplication : BaseApplication() {
     override fun onCreate() {
         super.onCreate()
 
-        Constants.setIsDebug(true)
+        Constants.setIsDebug(false)
 
         //config admob id
         AdmobData.instance.idAdmobFull = getString(R.string.str_f)
