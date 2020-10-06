@@ -25,5 +25,7 @@ class SplashActivity : AppCompatActivity() {
         intent.putExtra(Constants.BKG_SPLASH_SCREEN, listBkg.random())
         startActivity(intent)
         LActivityUtil.tranIn(this)
+
+        finish()
     }
 }
