@@ -4,5 +4,4 @@
         <item name="android:windowBackground">@drawable/startup</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 </resources>
